@@ -10,5 +10,5 @@ If you have built the container before it will use cahced files, to avoid it you
 
 To make the container have access to local files on the machine, we need to mount a volume when running the container:
 
-```docker run -v /path/to/local/files:/path/in/container sumo-docker ```
+```docker run -v /path/to/local/files:/path/in/container -it sumo-docker ```
 
